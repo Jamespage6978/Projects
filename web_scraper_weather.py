@@ -32,6 +32,10 @@ weather = pd.DataFrame({
 day_temps = [float(dte) for dte in day_temp]
 night_temps = [float(nte) for nte in night_temp]
  
+
+print(weather)
+
 plt.plot(periods,day_temps,'*')
 plt.plot(periods,night_temps,'o')
+plt.legend(["day","night"])
 plt.show()
