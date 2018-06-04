@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 url_start = 'https://en.wikipedia.org/wiki'
 urls = [['/Wiki'],[],[],[],[]]
-
+#Testing out git is working correctly
 
 for i in range(0,4):
 	page = requests.get(url_start+urls[i][0])
