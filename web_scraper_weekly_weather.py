@@ -14,7 +14,7 @@ regFore = soup.find(id="forecastSummaryContent")
 periods = [per.get_text() for per in list(sevenday.find_all(class_="long-date"))]
 short_descs = [d["alt"] for d in sevenday.select("img")]
 
-foreCast = (regFore.find(class_="largeTabContent")).get_text()
+foreCastq = (regFore.find(class_="largeTabContent")).get_text()
 
 day_temp = [dt["data-value-raw"] for dt in sevenday.select(".dayTemp")]
 night_temp = [dt["data-value-raw"] for dt in sevenday.select(".nightTemp")]
