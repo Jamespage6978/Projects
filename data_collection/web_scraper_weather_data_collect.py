@@ -25,32 +25,30 @@ for key,val in URLS.items():
 	date = today["data-date"]
 	day_temp = (today.select(".dayTemp"))[0]["data-value-raw"]
 	night_temp = (today.select(".nightTemp"))[0]["data-value-raw"]
-	uv_pol = today.select("i")
+	# uv_pol = today.select("i")
 
-	if uv_pol[0]["data-type"] == "pollen":
-		pollen = uv_pol[0].get_text()
-	else:
-		pollen = "NA"
+	# if uv_pol[0]["data-type"] == "pollen":
+	# 	pollen = uv_pol[0].get_text()
+	# else:
+	# 	pollen = "NA"
 		
 
-	if uv_pol[1]["data-type"] == "uv":
-		uv = uv_pol[1]["data-value"]
-	else:
-		uv = "NA"
+	# if uv_pol[1]["data-type"] == "uv":
+	# 	uv = uv_pol[1]["data-value"]
+	# else:
+	# 	uv = "NA"
 
 	short_descs = [d["alt"] for d in today.select("img")]
 
 
 
 	weather = pd.DataFrame({
-			"Location":key
+			"Location":key,
 			"Day" : date,
 			"Time": time.strftime('%H:%M:%S'),
 			"short_desc": short_descs,
 			"Day_time_temps": day_temp,
 			"Night_time_temps": night_temp,
-			"Pollen": pollen,
-			"UV": uv
 		})
 
 
