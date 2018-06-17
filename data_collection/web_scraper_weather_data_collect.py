@@ -13,6 +13,7 @@ URLS = {"Carmarthen":"https://www.metoffice.gov.uk/public/weather/forecast/gchzj
 		"Swansea":"https://www.metoffice.gov.uk/public/weather/forecast/gcjjwm34p",
 		"London":"https://www.metoffice.gov.uk/public/weather/forecast/gcpvj0v07"
 }
+save_loc = "data/"
 
 for key,val in URLS.items():
 
@@ -55,10 +56,10 @@ for key,val in URLS.items():
 	print("#############################################################")
 	print(weather)
 	print("#############################################################")
-	if os.path.isfile(key + "_weather.csv"):
-		weather.to_csv(key + "_weather.csv",mode='a', index=False, header=False)
+	if os.path.isfile(save_loc +key + "_weather.csv"):
+		weather.to_csv(save_loc +key + "_weather.csv",mode='a', index=False, header=False)
 	else:
-		weather.to_csv(key + "_weather.csv",mode='a', index=False)
+		weather.to_csv(save_loc+key + "_weather.csv",mode='a', index=False)
 	
 
 
