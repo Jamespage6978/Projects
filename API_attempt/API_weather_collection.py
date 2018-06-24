@@ -26,7 +26,6 @@ for i in range(0,len(locations)):
 	lon = location.longitude
 
 	URL = site + key + "/" + str(lat) + "," + str(lon) + "?"+exclude +"&"+ units
-	print(URL)
 	respones = requests.get(URL)
 	json_repsonse= respones.json()
 	Data = json_repsonse["currently"]
