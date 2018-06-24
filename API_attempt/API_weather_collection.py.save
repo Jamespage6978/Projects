@@ -15,7 +15,7 @@ site = "https://api.darksky.net/forecast/"
 key = "e7e02006bb4b6e6c9a6e63970cc97317"
 exclude = "exclude=minutely,hourly,daily,flags"
 units = "units = ca"
-save_loc = "/home/pi/Documents/Git/Web_scrape/API_attempt/data/"
+save_loc = API_weather_collection.py"data/"
 #setup end
 
 
