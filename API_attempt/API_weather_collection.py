@@ -14,7 +14,7 @@ locations = ["Halesowen UK","Swansea UK","Carmarthen UK","London UK"]
 site = "https://api.darksky.net/forecast/"
 key = "e7e02006bb4b6e6c9a6e63970cc97317"
 exclude = "exclude=minutely,hourly,daily,flags"
-units = "units = ca"
+units = "units=ca"
 save_loc = "/home/pi/Documents/Git/Web_scrape/API_attempt/data/"
 #setup end
 
@@ -25,8 +25,8 @@ for i in range(0,len(locations)):
 	lat = location.latitude
 	lon = location.longitude
 
-	URL = site + key + "/" + str(lat) + "," + str(lon) + "?"+exclude +"?"+ units
-
+	URL = site + key + "/" + str(lat) + "," + str(lon) + "?"+exclude +"&"+ units
+	print(URL)
 	respones = requests.get(URL)
 	json_repsonse= respones.json()
 	Data = json_repsonse["currently"]
