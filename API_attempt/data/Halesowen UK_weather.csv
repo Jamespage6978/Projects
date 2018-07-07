@@ -168,3 +168,5 @@ App_Temp,Date,Dew_point,Lat,Location,Longitude,Ozone,Precip_intes,Precipatation_
 27.47,2018-07-07 18:00:18,10.57,52.4492074,"Halesowen, West Midlands Combined Authority, West Midlands, England, B63 4AE, UK",-2.0514646,310.23,0,0,27.47,1,343,14.19,0.01,Clear,0.35,1023.62,16.09,14.19
 27.69,2018-07-07 19:00:29,9.72,52.4492074,"Halesowen, West Midlands Combined Authority, West Midlands, England, B63 4AE, UK",-2.0514646,310.36,0,0,27.69,1,332,13.18,0.01,Clear,0.33,1023.55,16.09,12.73
 26.98,2018-07-07 19:30:23,10,52.4492074,"Halesowen, West Midlands Combined Authority, West Midlands, England, B63 4AE, UK",-2.0514646,302.85,0,0,26.98,1,335,13.26,0.02,Clear,0.35,1023.68,16.09,12.55
+26.01,2018-07-07 20:00:16,9.81,52.4492074,"Halesowen, West Midlands Combined Authority, West Midlands, England, B63 4AE, UK",-2.0514646,303.01,0,0,26.01,0,341,13.47,0.02,Clear,0.36,1023.9,16.09,10.88
+25.12,2018-07-07 20:30:17,10.07,52.4492074,"Halesowen, West Midlands Combined Authority, West Midlands, England, B63 4AE, UK",-2.0514646,303.14,0,0,25.12,0,340,13.99,0.01,Clear,0.39,1024.15,16.09,10.88
