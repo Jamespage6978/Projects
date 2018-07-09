@@ -249,3 +249,5 @@ App_Temp,Date,Dew_point,Lat,Location,Longitude,Ozone,Precip_intes,Precipatation_
 27.14,2018-07-09 17:30:18,13.02,51.5073219,"London, Greater London, England, SW1A 2DU, UK",-0.1276474,317.14,0,0,27.14,1,22,12.02,0.99,Overcast,0.42,1023.34,14.68,9.54
 27.58,2018-07-09 18:00:20,13.38,51.5073219,"London, Greater London, England, SW1A 2DU, UK",-0.1276474,317.5,0,0,27.58,1,7,13.99,0.86,Mostly Cloudy,0.42,1023.29,12.26,9.38
 26.94,2018-07-09 18:30:17,13.4,51.5073219,"London, Greater London, England, SW1A 2DU, UK",-0.1276474,317.84,0,0,26.88,1,27,14.29,0.86,Mostly Cloudy,0.43,1023.4,14.68,10.22
+25,2018-07-09 19:00:19,14.46,51.5073219,"London, Greater London, England, SW1A 2DU, UK",-0.1276474,315.58,0,0,25,0,67,23.69,0.77,Mostly Cloudy,0.52,1023.41,12.26,19.84
+24.57,2018-07-09 19:30:17,14.11,51.5073219,"London, Greater London, England, SW1A 2DU, UK",-0.1276474,315.85,0,0,24.57,0,72,21.11,0.68,Mostly Cloudy,0.52,1023.61,14.68,17.9
