@@ -528,3 +528,5 @@ App_Temp,Date,Dew_point,Lat,Location,Longitude,Ozone,Precip_intes,Precipatation_
 16.56,2018-07-18 03:30:13,13.24,51.6211442,"Swansea, West Glamorgan, Wales, SA1 3ES, UK",-3.9467751,348.78,0,0,16.56,0,198,15.79,0.65,Mostly Cloudy,0.81,1016.59,15.88,13.45
 16.18,2018-07-18 04:00:21,13.91,51.6211442,"Swansea, West Glamorgan, Wales, SA1 3ES, UK",-3.9467751,349.06,0,0,16.18,0,189,15.68,0.73,Mostly Cloudy,0.86,1016.47,13.66,9.59
 16.09,2018-07-18 04:30:14,13.89,51.6211442,"Swansea, West Glamorgan, Wales, SA1 3ES, UK",-3.9467751,349.22,0,0,16.09,0,188,14.55,0.72,Mostly Cloudy,0.87,1016.55,15.53,10.09
+16.19,2018-07-18 05:00:20,14.34,51.6211442,"Swansea, West Glamorgan, Wales, SA1 3ES, UK",-3.9467751,349.38,0.1854,0.02,16.19,0,194,15.34,0.73,Mostly Cloudy,0.89,1016.66,13.24,14.76
+16.09,2018-07-18 05:30:12,14.37,51.6211442,"Swansea, West Glamorgan, Wales, SA1 3ES, UK",-3.9467751,349.45,0,0,16.09,0,195,14.76,0.72,Mostly Cloudy,0.9,1016.75,15,14.31
