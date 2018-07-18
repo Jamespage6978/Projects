@@ -515,3 +515,5 @@ App_Temp,Date,Dew_point,Lat,Location,Longitude,Ozone,Precip_intes,Precipatation_
 16.51,2018-07-17 23:30:17,12.87,51.8591257,"Carmarthen, Carmarthenshire, Wales, SA31 1RT, UK",-4.3115907,342.64,0.3048,1,16.51,0,201,15.96,0.98,Light Rain,0.79,1016.77,16.09,14.5
 15.55,2018-07-18 00:00:23,13.66,51.8591257,"Carmarthen, Carmarthenshire, Wales, SA31 1RT, UK",-4.3115907,342.93,0,0,15.55,0,230,21.16,0.85,Mostly Cloudy,0.88,1016.79,15.21,19.46
 15.41,2018-07-18 00:30:27,13.57,51.8591257,"Carmarthen, Carmarthenshire, Wales, SA31 1RT, UK",-4.3115907,343.24,0,0,15.41,0,224,19.04,0.88,Mostly Cloudy,0.89,1016.76,16.09,16.87
+15.39,2018-07-18 01:00:32,14.37,51.8591257,"Carmarthen, Carmarthenshire, Wales, SA31 1RT, UK",-4.3115907,347.39,0,0,15.34,0,179,16.82,0.83,Mostly Cloudy,0.94,1016.7,15.18,13.1
+15.14,2018-07-18 01:30:18,14.13,51.8591257,"Carmarthen, Carmarthenshire, Wales, SA31 1RT, UK",-4.3115907,347.71,0.9703,1,15.12,0,180,16.38,0.83,Light Rain,0.94,1016.64,16.09,12.5
